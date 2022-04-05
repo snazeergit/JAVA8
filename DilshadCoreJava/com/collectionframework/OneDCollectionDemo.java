@@ -13,6 +13,7 @@ class Test {
 	ArrayList<Integer> arrayList;
 	HashSet<Integer> hashSet;
 	TreeSet<Integer> treeSet;
+	
 
 	void linkedListInsertion() {
 		// TODO
@@ -27,7 +28,7 @@ class Test {
 		System.out.println(linkedList);
 
 		Object linkedListClone = linkedList.clone();
-		System.out.println(linkedList);
+		System.out.println(linkedListClone);
 
 		
 		  Collection<Integer> collection = (Collection<Integer>) linkedListClone;
