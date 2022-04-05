@@ -18,9 +18,30 @@ class Test1 {
 	void treeMapInsertion() {
 		treeMap = new TreeMap<>();
 		treeMap.put(30, "Deepti");
-		treeMap.putAll(hashMap);// will replace all the pre available elements from treemap means 30 deepti will be removed.
+		treeMap.putAll(hashMap);// will replace all the pre available elements from treemap means 30 deepti will
+								// be removed.
 
 		System.out.println(hashMap);
+	}
+
+	public void hashMapRetrieval() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void treeMapRetrieval() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void hashMapRemoval() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void treeMapRemoval() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
@@ -32,6 +53,10 @@ public class TwoDCollectionDemo {
 		Test1 t1 = new Test1();
 		t1.hashMapInsertion();
 		t1.treeMapInsertion();
+		t1.hashMapRetrieval();
+		t1.treeMapRetrieval();
+		t1.hashMapRemoval();
+		t1.treeMapRemoval();		
 	}
 
 }
