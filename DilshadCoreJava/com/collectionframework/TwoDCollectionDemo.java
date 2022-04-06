@@ -19,7 +19,7 @@ class Test1 {
 	}
 
 	private void insertion(Map<Integer, String> map) {
-		System.out.println("Test1.insertion():");
+		//System.out.println("Test1.insertion():");
 		map.put(10, "Nazeer");
 		map.put(20, "Dilshad");
 		map.put(50, "Sardar");
