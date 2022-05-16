@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Collections;
 
-class PlanningUtil {
+class PlanningUtil2 {
 	Integer floors;
 	Scanner scanner;
 	Map<Integer, Integer> hmap;
@@ -16,7 +16,7 @@ class PlanningUtil {
 	Integer fSize;
 	Integer[] storeFloors;
 
-	public PlanningUtil(int floors, Scanner scanner) {
+	public PlanningUtil2(int floors, Scanner scanner) {
 		this.floors = floors;
 		this.scanner = scanner;
 		storeFloors = new Integer[floors + 1];
@@ -63,7 +63,7 @@ class PlanningUtil {
 	}
 }
 
-public class FloorPlanning {
+public class FloorPlanning2 {
 
 	public static void main(String[] args) {
 
@@ -71,7 +71,7 @@ public class FloorPlanning {
 		System.out.println("Enter the total no of floors in the building");
 
 		int floors = Integer.parseInt(scanner.nextLine());
-		PlanningUtil util = new PlanningUtil(floors, scanner);
+		PlanningUtil2 util = new PlanningUtil2(floors, scanner);
 
 		util.printFloors();
 
